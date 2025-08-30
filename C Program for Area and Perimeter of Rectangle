@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+float width,length,area,perimeter;
+printf("Enter the width and length of rectangle:");
+scanf("%f%f",&width,&length);
+area=(width*length);
+printf("Area of the rectangle:%.2f\n",area);
+perimeter=2*(width+length);
+printf("perimeter of the rectangle:%.2f\n",perimeter);
+return 0;
+}
