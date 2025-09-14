@@ -10,7 +10,7 @@ int main()
     printf("Enter second complex number:\n");
     scanf("%f%f",&num2.real,&num2.imag);
     sum.real=num1.real+num2.real;
-    sum.imag=num1.real+num2.imag;
+    sum.imag=num1.imag+num2.imag;
     printf(" sum of the complex number=%.2f+%.2fi\n",sum.real,sum.imag);
     return 0;
 }
